@@ -192,12 +192,16 @@ DJANGO_APPS = (
     # 'django.contrib.admindocs',
 )
 
+# Third party apps
+THIRD_PARTY_APPS = (
+    'south',
+)
 # Apps specific for this project go here.
 LOCAL_APPS = (
 )
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
-INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS
+INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 ########## END APP CONFIGURATION
 
 
