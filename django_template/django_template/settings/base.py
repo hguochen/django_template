@@ -195,6 +195,7 @@ DJANGO_APPS = (
 # Third party apps
 THIRD_PARTY_APPS = (
     'south',
+    'fabric',
 )
 # Apps specific for this project go here.
 LOCAL_APPS = (
